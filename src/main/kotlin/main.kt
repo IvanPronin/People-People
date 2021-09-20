@@ -1,11 +1,7 @@
 fun main() {
-    var x = 55
+    var x = 561
 
-    if(x % 11 == 1) {
-        println("$x людям")
-    } else if(x == 1) {
-        println("$x человеку")
-    } else if(x % 10 == 1) {
+    if(x % 10 == 1 || x == 1) {
         println("$x человеку")
     } else {
         println("$x людям")
